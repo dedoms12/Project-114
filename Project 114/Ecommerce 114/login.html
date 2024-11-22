@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Now</title>
+  <!-- Bootstrap link css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-container text-center">
+      <!-- Logo -->
+      <a href="index.html">
+        <img src="images/thriftstorelogo.png" alt="Logo" class="img-fluid d-block mx-auto mb-3"
+          style="max-width: 150px;" />
+      </a>
+      <!-- Title -->
+      <h5 class="text-muted">
+        <span style="color: #D19B5A;">ThriftEase:</span> Online Market for
+        Sustainable Thrifted Clothing and Shoes
+      </h5>
+      <h2 class="mt-3">Login</h2>
+      <!-- Form -->
+      <form id="loginForm" class="form-group">
+        <div class="text-start mt-4">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="login-username" name="login-username"
+            placeholder="Enter your username" />
+        </div>
+        <div class="text-start mt-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="login-password" name="login-password"
+            placeholder="Enter your password" />
+        </div>
+        <div class="form-group text-start mt-3 col-md-3 position-relative">
+          <label for="userType" class="form-label">User Type</label>
+          <select class="form-select " id="userType">
+            <option>Buyer</option>
+            <option>Seller</option>
+          </select>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button type="submit" class="btn btn-custom w-100 mt-4">Login</button>
+        </div>
+        <div class="divider"></div>
+        <p class="mt-3">
+          Don't have an account?
+          <a href="create-account.html" class="text-decoration-none">Create Account</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/validation.js"></script>
+  <!-- Bootstrap link js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

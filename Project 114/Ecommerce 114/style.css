@@ -1,0 +1,222 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 150px;
+}
+
+.btn-custom {
+  background-color: #D19B5A;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #c59563;
+}
+
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.create-account-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo-img {
+  height: 150px;
+  /* Adjust height as needed */
+  width: auto;
+  /* Maintain aspect ratio */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  /* Adjust padding for spacing */
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header h1 span {
+  color: orange;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+  /* Ensures images take up the full width of the carousel */
+  height: 400px;
+  /* Set a fixed height for consistency */
+  object-fit: cover;
+  /* Ensures the image covers the area without distortion */
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  /* Optional: adds a rounded border effect to the carousel */
+  overflow: hidden;
+  /* Ensures no overflow beyond the rounded edges */
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  min-width: 0;
+}
+
+.text-center p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Adjust footer styles */
+footer p {
+  margin: 0;
+}
+
+footer img {
+  width: 150px;
+  /* Set size for QR Code */
+  margin-top: 10px;
+}
+
+/* Enhance banner carousel spacing */
+.banner {
+  margin-bottom: 40px;
+}
+
+/* Adjust categories and products */
+.categories img,
+.products img {
+  max-height: 200px;
+  /* Prevent oversized images */
+  object-fit: cover;
+  /* Ensure proportional display */
+  margin-bottom: 10px;
+}
+
+.cart-container {
+  max-width: 800px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cart-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-controls button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+}
+
+.delete-item {
+  color: red;
+  cursor: pointer;
+}
+
+.checkout {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout button {
+  background-color: #d4a15f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-cart {
+  float: right;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.product-item {
+  border: 2px solid #ccc;
+  /* Light gray border */
+  padding: 10px;
+  /* Padding inside the product block */
+  margin-bottom: 20px;
+  /* Space between product blocks */
+  border-radius: 8px;
+  /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: shadow effect */
+}
